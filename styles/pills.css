@@ -1,0 +1,51 @@
+@import url("../styles/default.css");
+
+/* DEFAULT PILLS */
+.pill-primary {
+    background-color: var(--color-primary);
+    width: fit-content;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 20rem;
+    color: var(--color-light);
+}
+
+.pill-secondary {
+    background-color: var(--color-secondary);
+    width: fit-content;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 20rem;
+    color: var(--color-light);
+}
+
+.pill-tertiary {
+    background-color: var(--color-tertiary);
+    width: fit-content;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 20rem;
+    color: var(--color-primary);
+}
+
+/* SMALL PILLS */
+.pill-primary-small {
+    background-color: var(--color-primary);
+    width: fit-content;
+    padding: 0rem .5rem .1rem .5rem;
+    border-radius: 20rem;
+    color: var(--color-light);
+}
+
+.pill-secondary-small {
+    background-color: var(--color-secondary);
+    width: fit-content;
+    padding: 0rem .5rem .1rem .5rem;
+    border-radius: 20rem;
+    color: var(--color-light);
+}
+
+.pill-tertiary-small {
+    background-color: var(--color-tertiary);
+    width: fit-content;
+    padding: 0rem .5rem .1rem .5rem;
+    border-radius: 20rem;
+    color: var(--color-primary);
+}
