@@ -33,7 +33,7 @@ function updateCardContent(updateHtml = true){
 
     for(const card of academicCards){
         if(!updateHtml) continue;
-        const htmlContent = `<div class="card" card-id="${card.id}">
+        const htmlContent = `<div class="card" id="acad-card" card-id="${card.id}">
             <img class="image" src="${card.url}" alt="">
             <div class="title">${card.title}</div>
             <div class="detail">
@@ -53,7 +53,7 @@ function removeCard(cardId){
 }
 
 function handleCards(){
-    const cards = document.querySelectorAll(".card");
+    const cards = document.querySelectorAll("#acad-card");
     
     for(const card of cards){
         card.addEventListener("click", () => {
