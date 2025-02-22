@@ -106,7 +106,6 @@ body {
     flex-direction: column;
 
     width: 20rem;
-    height: 31rem;
 
     border: .2rem dashed var(--color-secondary);
     border-radius: 1rem;
@@ -120,6 +119,7 @@ body {
 
     font-size: 36px;
 }
+
 
 .card-add:hover{
     box-shadow: 0px 0px 2rem 1rem var(--shadow-primary);
@@ -217,13 +217,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 30rem;
+    height: 12rem;
 
     border: .2rem solid var(--color-secondary);
     padding: 1rem;
     border-radius: 1rem;
 
     transition: all 0.2s ease-in;
-    height: 10rem;
 }
 
 .skill:hover { cursor: pointer; }
@@ -293,3 +293,4 @@ body {
     box-shadow: 0px 0px 2rem 1rem var(--shadow-primary);
     transform: rotate(-2deg)
 }
+
