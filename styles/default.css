@@ -1,0 +1,20 @@
+:root {
+    --color-primary: #171433;
+    --color-secondary: #4f37db;
+    --color-tertiary: #dbaa37;
+
+    --color-success: #389435;
+    --color-danger: #ba403c;
+    --color-info: #3c68ba;
+    --color-muted: #cbc8db;
+
+    --color-light: #e7e4f7;
+    --color-dark: #19181f;
+
+    --shadow-primary: rgba(79, 55, 219, .5);
+    --shadow-danger: rgba(186, 64, 60, .5);
+}
+
+* {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
