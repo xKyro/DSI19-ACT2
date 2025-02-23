@@ -1,6 +1,4 @@
 function redirect(path){
-    const currentDomain = window.location.origin;
-
-    // window.location.assign(`${currentDomain}/${path}`);
-    console.log(window.location);
+    const head = "https://xkyro.github.io/DSI19-ACT2/";
+    window.location.assign(`${head}/${path}`);
 }
